@@ -1,6 +1,6 @@
-/* Navbar */
-
 @media screen and (max-width: 576px) {
+
+    /* Navbar */
 
     nav{
         flex-direction: column;
@@ -23,4 +23,35 @@
     .follow-us {
         margin-top: 20px;
     }
+
+    /* Banner */
+
+    .banner-container{
+        flex-direction: column;
+        
+        border: 2px solid blue;
+    }
+    .banner-content{
+        margin: 0px;
+        padding: 60px;
+        width: 100%;
+        border: 2px solid red;
+
+    }
+    .banner-content>h2{
+        padding-left: 0;
+    }
+    .banner-content>h1{
+        padding-left: 0;
+    }
+    .banner-content>p{
+        padding-left: 0;
+    }
+    .banner-btn{
+        padding-left: 0;
+    }
+    .banner-image img{
+        border: 2px solid green;
+    }
+
 }
