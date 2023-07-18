@@ -28,14 +28,12 @@
 
     .banner-container{
         flex-direction: column;
-        
-        border: 2px solid blue;
+        width: auto;
     }
     .banner-content{
-        margin: 0px;
-        padding: 60px;
+        margin: 30px;
         width: 100%;
-        border: 2px solid red;
+        
 
     }
     .banner-content>h2{
@@ -51,7 +49,22 @@
         padding-left: 0;
     }
     .banner-image img{
-        border: 2px solid green;
+       
+        margin: 50px 50px 200px 50px;
+    }
+
+    /* Main */
+
+    /* Funny Videos */
+
+    .funny-videos{
+        margin-top: 900px;
+    }
+    .funny-vid-boxes{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
     }
 
 }
