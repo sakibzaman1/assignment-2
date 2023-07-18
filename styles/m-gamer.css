@@ -1,0 +1,26 @@
+/* Navbar */
+
+@media screen and (max-width: 576px) {
+
+    nav{
+        flex-direction: column;
+        padding: auto;
+        height: 400px;
+        box-shadow: none;
+        justify-content: center;
+    }
+    .nav-right ul{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 40px;
+        padding-left: 0px;
+    }
+    .nav-right>ul>li {
+        
+        margin-right: 0px;
+    }
+    .follow-us {
+        margin-top: 20px;
+    }
+}
