@@ -1,0 +1,108 @@
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+
+    body{
+        width: auto;
+    }
+    nav {
+        width: auto;
+        margin-right: 10px;
+        padding: 10px 0px;
+        column-gap: 10px;
+        height: 150px;
+        box-shadow: none;
+    }
+.nav-left{
+    margin-left: 40px;
+}
+    .nav-right>ul>li {
+        margin: 30px;
+    }
+    .follow-us {
+       
+    }
+
+    .banner-container {
+        gap: 200px;
+    }
+
+
+    .banner-content {
+        background-image: none;
+        text-align: start;
+        width: 50%;
+        
+    }
+
+    .banner-content>h2 {
+        padding-left: 40px;
+
+    }
+
+    .banner-content>h1 {
+        padding-left: 40px;
+
+    }
+
+    .banner-content>p {
+        padding-left: 40px;
+    }
+
+    .banner-btn {
+        padding-left: 40px;
+        display: flex;
+    }
+
+    .banner-image img {
+        margin-right: 0;
+    }
+
+
+    main {
+        width: auto;
+    }
+
+    .funny-vid-head {
+        margin-left: 230px;
+    }
+
+    .funny-vid-boxes {
+        margin-right: 20px;
+    }
+
+    .play-inst {
+        gap: 50px;
+        margin-left: 100px;
+        margin-bottom: -130px;
+    }
+
+    #play-img-2 {
+        bottom: 180px;
+        right: 30px;
+    }
+
+    .play-desc {
+        margin-top: 0;
+        text-align: start;
+    }
+
+    .tags-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 120px;
+        margin-top: 20px;
+        padding-top: 0;
+        padding-bottom: 20px;
+        width: 100%;
+        height: 400px;
+        justify-items: center;
+        align-content: center;
+        row-gap: 50px;
+    }
+
+    footer {
+        width: 980px;
+        height: 600px;
+        margin: auto;
+    }
+}
