@@ -274,7 +274,7 @@ main {
     justify-content: center;
     height: 200px;
     margin: 100px 100px;
-    gap: 10px;
+    gap: 20px;
     text-align: center;
     padding-top: 100px;
 
@@ -307,7 +307,7 @@ main {
     display: flex;
     align-items: center;
     color: #0B0223;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 

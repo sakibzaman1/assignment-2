@@ -125,6 +125,10 @@
         width: 100px;
     }
 
+    .tag p{
+        font-size: 0.5rem;
+    }
+
     /* Footer */
 
     .footer{
