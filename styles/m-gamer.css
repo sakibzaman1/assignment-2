@@ -119,7 +119,8 @@
         height: 400px;
         justify-items: center;
         align-content: center;
-        row-gap: 50px;
+        row-gap: 30px;
+        column-gap: normal;
     }
     .tag{
         width: 100px;
