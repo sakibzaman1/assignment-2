@@ -8,6 +8,11 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
 
 /* Header Section Styles */
 
@@ -125,6 +130,10 @@ nav {
     border: none;
     font-size: 1.2rem;
     font-weight: 600;
+    cursor: pointer;
+}
+#b-btn-1:hover{
+    background-color:#fc148c ;
 }
 #b-btn-2{
     border-radius: 48px;
@@ -135,8 +144,11 @@ nav {
     font-size: 1.2rem;
     font-weight: 600;
     margin-left: 20px;
+    cursor: pointer;
 }
-
+#b-btn-2:hover{
+    background-color:#0d9ad7;
+}
 .banner-image img {
     width: 370px;
     height: 700px;
@@ -147,7 +159,10 @@ nav {
 
 /* Funny videos section */
 
-
+main{
+    max-width: 1440px;
+    margin: auto;
+}
 .funny-vid-head{
     text-align: center;
 }
@@ -241,7 +256,7 @@ border-radius: 16px;
     flex-wrap: wrap;
     justify-content: center;
     height: 200px;
-    margin: 100px 220px;
+    margin: 100px 100px;
     gap: 10px;
     text-align: center;
     padding-top: 100px;
@@ -304,7 +319,7 @@ justify-content: center;
     color: white;
 }
 .ftr-items{
-    margin: auto;
+    margin: 20px auto;
 }
 .ftr-items ul{
     display: flex;
@@ -312,8 +327,26 @@ justify-content: center;
     gap: 50px;
     margin-bottom: 50px;
 }
-.ftr-items ul li{
+.ftr-items>ul>li{
     list-style: none;
-    
+}
+#ftr-row-1>li{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFF;
+    cursor: pointer;
+}
 
+#ftr-row-3>li{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.ftr-items>small{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
 }
