@@ -3,9 +3,10 @@
     
 
     body{
-       width: 600px;
+       width: 612px;
        height: 100%;
-       margin: 0;
+       
+       
     }
 
     /* Navbar */
@@ -41,7 +42,7 @@
         
     }
     .banner-content{
-        margin: 30px;
+        margin: 20px;
         width: 100%;
         background-image: none;
         text-align: center;
@@ -68,6 +69,7 @@
 
     /* Main */
 
+
     /* Funny Videos */
 
     .funny-videos{
@@ -77,13 +79,32 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0;
+        margin: auto;
+        gap: 10px 0;
+    }
+    .f-vid-box p{
+        text-align: center;
+    }
+    .f-vid-box img{
+        width: 100%;
     }
 
     /* Play Instant */
 
     .play-inst{
         flex-direction: column;
+        align-items: center;
+    }
+    .play-desc{
+        width: 300px;
+    }
+    #play-img-1{
+        margin-left: 200px;
+        margin-top: 60px;
+    }
+    #play-img-2{
+        margin-left: 500px;
+        margin-top: -200px;
     }
 
     /* Tags */
@@ -92,18 +113,37 @@
         display: grid;
         grid-template-columns: repeat(3,1fr);
         margin: 0;
-        padding-top: 10px 0 10 0;
+        padding-top: 0;
+        padding-bottom: 20px;
         width: 100%;
         height: 400px;
         justify-items: center;
         align-content: center;
+        row-gap: 50px;
+    }
+    .tag{
+        width: 100px;
     }
 
     /* Footer */
 
     .footer{
         width: 100%;
-        margin-right: 0;
+        gap: 20px;
+    }
+    .ftr-items ul{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-self: center;
+        row-gap: 50px;
+    }
+    #ftr-row-2{
+        text-align: center;
+    }
+    #ftr-row-3{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
     }
 
 }
