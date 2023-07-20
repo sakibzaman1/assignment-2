@@ -28,6 +28,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 240px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .nav-left {
@@ -85,6 +87,8 @@ nav {
     display: flex;
     justify-content: space-between;
     height: 700px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .banner-content {
