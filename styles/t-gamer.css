@@ -1,29 +1,36 @@
 @media screen and (min-width: 576px) and (max-width: 992px) {
 
-   
-    body{
-        width: auto;
+
+    body {
+        max-width: 992px;
+        margin: 0;
     }
+
     nav {
         width: auto;
-        margin-right: 10px;
+        margin-right: 0px;
         padding: 10px 0px;
-        column-gap: 10px;
+        column-gap: 10%;
         height: 150px;
         box-shadow: none;
     }
-.nav-left{
-    margin-left: 40px;
-}
-    .nav-right>ul>li {
-        margin: 30px;
+    .nav-left {
+        margin-left: 25px;
     }
+    .nav-right>ul>li {
+        margin: 20px;
+    }
+
+    .nav-right>ul>li>a{
+        font-size: 0.9rem;
+    }
+
     .follow-us {
-       
+        margin-left: 30px;
     }
 
     .banner-container {
-        gap: 200px;
+        gap: 100px;
     }
 
 
@@ -31,7 +38,7 @@
         background-image: none;
         text-align: start;
         width: 50%;
-        
+
     }
 
     .banner-content>h2 {
@@ -54,7 +61,7 @@
     }
 
     .banner-image img {
-        margin-right: 0;
+        margin-right: 0px;
     }
 
 
@@ -63,16 +70,17 @@
     }
 
     .funny-vid-head {
-        margin-left: 230px;
+        margin-left:20%;
     }
 
     .funny-vid-boxes {
         margin-right: 20px;
+        margin-left: 20%;
     }
 
     .play-inst {
         gap: 50px;
-        margin-left: 100px;
+        margin-left: 60px;
         margin-bottom: -130px;
     }
 
@@ -89,7 +97,7 @@
     .tags-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        margin-left: 120px;
+        margin-left: 60px;
         margin-top: 20px;
         padding-top: 0;
         padding-bottom: 20px;
@@ -101,8 +109,8 @@
     }
 
     footer {
-        width: 980px;
+        width: 118%;
         height: 600px;
-        margin: auto;
+    
     }
 }
